@@ -16,11 +16,18 @@
 body {
   align-items: center;
   font-family: Arial, sans-serif;
-  height: 1500px;
-width: 1250px;
+ 
   
 }
-
+button {
+  background-color: #FDC913;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  color: black;
+  border: none;
+  
+}
 header {
   background-color: #333;
   color: white;
@@ -44,23 +51,35 @@ header {
 h1 {
   font-size: 50px;
 }
+
+
+
+
+
 .features {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: center; 
+  height: 100px; 
+  background-color: white; 
 }
-
-.feature-item {
-  margin: 20px;
-  text-align: center;
+.food-grid {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  width: 1068;
+  height: 42;
 }
-
-.feature-item img {
-  width: 50px; /* İkon boyutu */
+.food-grid p {
+  padding: 10px;
+}
+.food-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 @media (max-width: 768px) {
   .features {
-      flex-direction: column;
+      display: flex;
   }
 }
 
