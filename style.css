@@ -56,7 +56,7 @@ h1 {
   display: flex;
 
   justify-content: center; 
-  margin-top: 20px;
+  
   
 }
 .foto {
@@ -64,39 +64,87 @@ h1 {
 }
 .foto1 {
   flex: 1;
+  
   background-image: url(public/assets/iteration-2/cta/kart-1.png);
   width: 531px;
-  height: 449px;
+  height: 454px;
   border-radius: 12px 0px 0px 0px;
   text-align: center;
   border-radius: 10px;
-  
+  margin-right: 20px;
 }
 .container2 {
   display: flex;
   flex-direction: column; 
   align-items: center; 
+  
 }
   
 
 .foto2 {
+  
   display: flex;
   background-image: url(public/assets/iteration-2/cta/kart-2.png);
   width: 530px;
   height: 220px;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-bottom: 23px;
   
 }
 .foto3 {
+ 
   display: flex;
-  border-radius: 10px;
+  border-radius: 5px;
   background-image: url(public/assets/iteration-2/cta/kart-3.png);
   width: 530px;
   height: 210px;
-  
-
-
 }
+.buttonleft {
+  background-color: #FAF7F2;
+  color: red;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  margin-right: 270px;
+}
+.buttonright {
+  background-color: #FAF7F2;
+  color: red;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+   margin-top: 150px;
+ 
+  
+}
+.buttonust {
+  background-color: #FAF7F2;
+  color: red;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+   margin-top: 150px;
+
+  
+}
+.foto1 p {
+  color: white;
+  font-size: 55px;
+  margin-right: 250px;
+}
+.foto2 p {
+  color: white;
+  font-size: 22px;
+  margin-left: 33px;
+ 
+}
+.foto3 p {
+  color:black;
+  font-size: 22px;
+  display: grid;
+  margin-left: 55px;
+}
+
 .features {
   display: flex;
   justify-content: center; 
