@@ -16,8 +16,7 @@
 body {
   align-items: center;
   font-family: Arial, sans-serif;
- 
-  
+
 }
 button {
   background-color: #FDC913;
@@ -51,11 +50,53 @@ header {
 h1 {
   font-size: 50px;
 }
+.container {
+  padding: 3rem;
+  background-color: #FAF7F2;
+  display: flex;
+
+  justify-content: center; 
+  margin-top: 20px;
+  
+}
+.foto {
+ display: flex; 
+}
+.foto1 {
+  flex: 1;
+  background-image: url(public/assets/iteration-2/cta/kart-1.png);
+  width: 531px;
+  height: 449px;
+  border-radius: 12px 0px 0px 0px;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+.container2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+  
+
+.foto2 {
+  display: flex;
+  background-image: url(public/assets/iteration-2/cta/kart-2.png);
+  width: 530px;
+  height: 220px;
+  border-radius: 10px;
+  
+}
+.foto3 {
+  display: flex;
+  border-radius: 10px;
+  background-image: url(public/assets/iteration-2/cta/kart-3.png);
+  width: 530px;
+  height: 210px;
+  
 
 
-
-
-
+}
 .features {
   display: flex;
   justify-content: center; 
