@@ -204,6 +204,33 @@ color: #242424;
  justify-content: center;
  
 }
+.cesit {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color:#FAF7F2 ;
+  color: black;
+}
+.sayfa5 {
+margin: 20px;
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.rating p {
+  display: flex;
+  justify-content: space-around;
+}
+.cesit h3 {
+  text-align: center;
+}
+.price {
+  display: flex;
+  
+}
 .pizza1 {
   display: flex;
   background-image: url(public/assets/iteration-2/pictures/food-1.png);
